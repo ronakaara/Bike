@@ -1,0 +1,563 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+
+.header{
+	width: 100%;
+    background: url(../images/bg.png) center top no-repeat;
+	padding: 10px 0px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 30px;
+    transition: 1s;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	color: #00bec9;
+}
+
+.header .social-icons{
+	width: 100%;
+	padding: 0px 0px 0px 15px;
+	text-align: right;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+
+}
+.social-icons li a{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 0px 5px;
+	transition: 1s;	
+	color: #fff;
+	background: #cd0a2d;
+	border: 2px solid #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+}
+
+.social-icons li a:hover, .social-icons li a:focus{
+	cursor: pointer;
+	color: #cd0a2d;
+	background: #fff;
+	border: 1px solid #cd0a2d;
+}
+.banner{
+	width: 100%;
+	padding: 20px 10px;
+}
+.banner .text{
+	padding: 20px 0px 0px;
+    margin: 0px 0px -65px;
+}
+
+.banner .type{
+	margin: 0px 115px;
+}
+
+.we-are{
+	width: 100%;
+	padding: 40px 0px;
+	background: url(../images/bg4.png) center top no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	
+}
+.we-are .world{
+	text-align: left;
+	padding: 60px 0px;
+}
+.we-are .world h1{
+	padding: 40px 0px;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.we-are .world h6{
+    padding: 20px 0px 0px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #fff;
+}
+
+.we-are .world p{
+    font-size: 14px;
+	font-weight: 300;
+	line-height: 1.7em;
+	color: #fff;
+	padding: 0px 0px 40px;
+}
+.we-are .people{
+    text-align: left;
+    width: 50%;
+    padding: 50px 0px 250px 245px;
+    margin: 131px 0px -180px;
+}
+.we-are .people h2{
+	font-size: 20px;
+	font-weight: 600;
+	color: #5e5e5e;
+	text-transform: uppercase;
+}
+.we-are .people h2 span{
+	font-size: 14px;
+	font-weight: 400;
+	color: #979797;
+	text-transform: uppercase;
+	padding: 0px 10px;
+}
+.we-are .people p{
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.7em;
+    color: #5e5e5e;
+}
+.we-are .people .img-left{
+	text-align: left;
+	margin: 0px 0px -180px -25px;
+}
+
+.we-are .people .img-right{
+	text-align: right;
+	margin: -110px 0px 0px 250px;
+}
+.we-are .people .text-right{
+	margin: 30px 0px 50px 150px;
+	text-align: left;
+}
+
+.world-wide{
+	width: 100%;
+	padding: 120px 0px;
+	background: #eee;
+	margin: -120px 0px 0px;
+	text-align: center;
+}
+.world-wide h1{
+	font-size: 42px;
+	padding: 60px 0px 20px;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #000;
+	text-transform: uppercase;
+}
+.world-wide h1 span{
+	font-size: 42px;
+	padding: 60px 0px 20px;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #cd0a2d;
+	text-transform: uppercase;
+}
+.world-wide p{
+    color: #5c5c5c;
+    font-size: 14px;
+	font-weight: 400;
+	line-height: 1.7em;
+}
+
+.world-wide .area{
+	background: #fff;
+	padding: 60px 0px;
+	margin: 25px 0px 0px;
+}
+.world-wide .area img{
+	margin: 0px 80px 0px -100px;
+}
+.world-wide .area h6{
+    font-size: 20px;
+    font-weight: 700;
+    margin: -60px -25px 0px 40px;
+}
+
+.world-wide .area h6 span{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.world-wide .area p{
+	font-size: 14px;
+	font-weight: 600;
+	padding: 70px 0px;
+}
+
+.tour{
+	width: 100%;
+	padding: 80px 0px;
+	margin: -120px 0px 0px;
+	background: url(../images/bg2.png) center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.tour h1{
+	font-size: 42px;
+	padding: 60px 0px 20px;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #fff;
+	text-transform: uppercase;
+}
+.tour h1 span{
+	font-size: 40px;
+	padding: 60px 0px 20px;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #cd0a2d;
+	text-transform: uppercase;
+}
+.tour .days{
+	width: 100%;
+	padding: 100px 0px 150px;
+	text-transform: uppercase;
+}
+
+.tour .para{
+	width: 100%;
+	padding: 60px 0px 100px;
+}
+
+.tour .days h1{
+	font-size: 68px;
+	font-weight: 500;
+	padding: 0px 0px 0px 230px;
+	margin: 0px 0px 0px;
+
+}
+.tour .days h1 span{
+	font-size: 44px;
+}
+.tour .days h2{
+	font-size: 54px;
+	font-weight: 500;
+	margin: 0px 0px 0px -80px;
+}
+.tour .days h2 span{
+	font-size: 34px;
+	font-weight: 500;
+}
+
+.tour .days h3{
+	font-size: 34px;
+	font-weight: 500;
+	margin: 15px 0px;
+}
+
+.tour .days h3 span{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0px 0px 0px -10px;
+}
+.tour .days h4{
+	font-size: 36px;
+	font-weight: 500;
+}
+
+.tour .days h4 span{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 15px 50px 0px -10px;
+}
+.tour .days .text-left{
+    padding: 50px 0px 0px;
+    text-align: left;
+    margin: 80px 0px -65px;
+}
+
+.tour .days .text-right{
+    padding: 50px 0px 0px;
+    text-align: right;
+    margin: 80px 0px -65px;
+}
+
+.tour .days .text-center{
+    padding: 50px 0px 0px;
+    text-align: center;
+    margin: 80px 0px -65px;
+}
+
+.tour .para .p1{
+	padding: 0px 90px 40px 0px;
+    margin: -50px 0px 0px;
+}
+
+.tour .para .p2{
+	padding: 0px 0px 15px 116px;
+    margin: -50px 0px 0px;
+}
+
+.journey{
+	width: 100%;
+	padding: 80px 0px 150px;
+	text-align: center;
+	background: url(../images/bg3.png) center top no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+.journey h1{
+	font-size: 36px;
+	font-weight: 500;
+	padding: 40px 0px 10px;
+
+}
+
+.journey p{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.4em;
+	padding: 10px 0px 40px;
+
+}
+
+.foot{
+	width: 100%;
+	padding: 40px 0px 5px;
+	background: #ededed;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+.foot .img-fluid{
+	position: relative;
+	z-index: 1;
+    margin: -165px 0px 60px;
+}
+
+.foot .location{
+	padding: 20px 0px;
+}
+
+.location img{
+	margin: 30px 100px -65px -100px;
+}
+
+.location h4{
+    margin: 5px 75px 0px 10px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+
+}
+.location p{
+	margin: 5px 15px -10px 0px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 300;
+}
+.location .number{
+	margin: 5px 50px -10px 0px;
+}
+
+.icons{
+	width: 100%;
+	padding: 40px 0px 10px;
+	text-align: center;
+}
+
+.social-icon li{
+	list-style: none;
+	display: inline-block;
+
+}
+.social-icon li a{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 20px 15px;
+    padding: 5px 10px;
+    transition: 1s;
+    color: #353535;
+    background: #ededed;
+    border: 1px solid #f0d839;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.social-icon li a:hover, .social-icon li a:focus{
+	cursor: pointer;
+	color: #f0d839;
+	background: #353535;
+	border: 1px solid #353535;
+}
+
+.footer{
+	width: 100%;
+	padding: 40px 0px;
+	margin: 0px 0px -15px;
+	background: #cd0a2d;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 0.2em;
+
+}
+
+
+/*
+**** galaxy fold mobile phone
+*/
+@media (min-width: 279px) and (max-width: 319px){
+/* css start */
+
+
+/* css end */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles 
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+.header{
+	width: 100%;
+    background: url(../images/bg.png) center top no-repeat;
+	padding: 10px 0px;
+}
+.banner .text{
+    padding: 20px 0px 0px;
+    margin: 0px 0px 0px;
+    width: 100%;
+}
+
+.banner .type{
+    width: 100%;
+    margin: 0px 0px;
+}
+.we-are{
+    padding: 0px 0px;
+    background: url(../images/bg4.png) center top no-repeat;
+    background-size: auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+.world-wide h1{
+	font-size: 24px;
+	width: 90%;
+}
+.world-wide h1 span{
+	font-size: 24px;
+	width: 90%;
+}
+
+.world-wide p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.7em;
+    width: 90%;
+}
+.world-wide .area h6{
+    font-size: 18px;
+}
+.tour{
+    width: 95%;
+    padding: 80px 0px;
+    margin: -121px 0px 0px;
+    background: url(../images/bg2.png) center top no-repeat;
+    background-size: auto;
+    text-align: center;
+    color: #fff;
+}
+.tour h1{
+    font-size: 24px;
+    width: 90%;
+}
+.tour h1 span{
+	font-size: 24px;
+	width: 90%;
+}
+.tour p{ 
+    font-size: 12px;
+    text-align: center;
+    width: 95%;
+    padding: 0px 10px;
+}
+}
+.journey h1{
+    font-size: 22px;
+}
+
+.journey p{
+    width: 93%;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+.social-icon li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px 0px -19px;
+}
+
+.social-icon li a{
+	font-size: 16px;
+	margin: 20px 1px;
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles 
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
